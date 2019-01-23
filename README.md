@@ -8,8 +8,10 @@ gdb extension selector
 ```
 
 ## usage
+just like gdb
+
 ```sh
-gdb.sh YOUR_DEBUG_FILE
+gdb.sh [OPTION...] YOUR_DEBUG_FILE
 ```
 
 ## gdb extension
