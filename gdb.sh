@@ -39,7 +39,7 @@ elif [ $num -eq "3" ] 2> /dev/null;then
 elif [ $num -eq "4" ] 2> /dev/null;then
 	Mode_change $num
 else
-	echo -e "Error!\nPleasse input right number!"
+    echo -e "Error!\nPleasse input right number!"
     Mode_change 4
 fi
 
