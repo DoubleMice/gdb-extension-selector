@@ -3,6 +3,7 @@ function Mode_change {
     name=$1
     gdbinitfile=~/.gdbinit
 
+    # set with your own location
     peda="source ~/peda/peda.py"
     gef="source ~/.gdbinit_gef"
     pwndbg="source ~/pwndbg/gdbinit.py"
