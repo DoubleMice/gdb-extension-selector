@@ -7,20 +7,20 @@ function Mode_change {
     peda="source ~/peda/peda.py"
     gef="source ~/.gdbinit_gef"
     pwndbg="source ~/pwndbg/gdbinit.py"
-	if [ $name -eq "1" ];then
+    if [ $name -eq "1" ];then
         tools=$peda
-		echo -e "[\033[31m*\033[0m]Please enjoy the peda!\n"
-	elif [ $name -eq "2" ];then
+        echo -e "[\033[31m*\033[0m]Please enjoy the peda!\n"
+    elif [ $name -eq "2" ];then
         tools=$gef
-		echo -e "[\033[31m*\033[0m]Please enjoy the gef!\n"
-	elif [ $name -eq "3" ];then
+        echo -e "[\033[31m*\033[0m]Please enjoy the gef!\n"
+    elif [ $name -eq "3" ];then
         tools=$pwndbg
-		echo -e "[\033[31m*\033[0m]Please enjoy the pwndbg!\n"
-	else
+        echo -e "[\033[31m*\033[0m]Please enjoy the pwndbg!\n"
+    else
         tools="#for origin gdb"
-		echo -e "[\033[31m*\033[0m]Use origin gdb!\n"
-	fi
-	echo $tools >> $gdbinitfile
+        echo -e "[\033[31m*\033[0m]Use origin gdb!\n"
+    fi
+    echo $tools >> $gdbinitfile
 }
 
 function Mode_clear {
