@@ -6,19 +6,19 @@ gdb extension selector
 
 * to install some extension
 
-```sh
-./setup.sh
-```
+    ```sh
+    ./setup.sh
+    ```
 
 * or just add gdb.sh to your PATH,then set extension location correctly
 
-in `gdb.sh` line `6`
-```sh
-# set with your own location
-peda="source ~/peda/peda.py"
-gef="source ~/.gdbinit_gef"
-pwndbg="source ~/pwndbg/gdbinit.py"
-```
+    in `gdb.sh` line `6`
+    ```sh
+    # set with your own location
+    peda="source ~/peda/peda.py"
+    gef="source ~/.gdbinit_gef"
+    pwndbg="source ~/pwndbg/gdbinit.py"
+    ```
 
 ## usage
 just like gdb
